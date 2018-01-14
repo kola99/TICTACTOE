@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3fb592"
+    tools:context="kola.com.tictactoe.MainActivity">
+
+    <ImageButton
+        android:id="@+id/b1"
+
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=""
+        android:width="120dp"
+        android:height="120dp"
+        android:layout_below="@+id/b9"
+        android:layout_toEndOf="@+id/b2" />
+
+    <ImageButton
+        android:id="@+id/b2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:text=""
+        android:width="120dp"
+        android:height="120dp"
+        android:layout_below="@+id/b5"
+        android:layout_toEndOf="@+id/b4" />
+
+    <ImageButton
+        android:id="@+id/b3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:width="120dp"
+        android:height="120dp"
+        android:text=""
+        android:layout_below="@+id/b7"
+        android:layout_alignStart="@+id/b7" />
+
+    <ImageButton
+        android:id="@+id/b4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:text=""
+        android:width="120dp"
+        android:height="120dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginStart="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/b5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:width="120dp"
+        android:height="120dp"
+        android:text=""
+
+        android:layout_alignTop="@+id/b4"
+        android:layout_toEndOf="@+id/b4" />
+
+    <ImageButton
+        android:id="@+id/b6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:width="120dp"
+        android:height="120dp"
+
+        android:text=""
+
+        android:layout_below="@+id/b1"
+        android:layout_toEndOf="@+id/b2" />
+
+    <ImageButton
+        android:id="@+id/b7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=""
+
+        android:width="120dp"
+        android:height="120dp"
+        android:layout_below="@+id/b4"
+        android:layout_alignStart="@+id/b4" />
+
+    <ImageButton
+        android:id="@+id/b8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=""
+        android:width="120dp"
+
+        android:height="120dp"
+        android:layout_below="@+id/b2"
+        android:layout_toEndOf="@+id/b3" />
+
+    <ImageButton
+        android:id="@+id/b9"
+
+        android:width="120dp"
+
+        android:height="120dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=""
+        android:layout_alignTop="@+id/b5"
+        android:layout_toEndOf="@+id/b2" />
+
+
+    <TextView
+        android:id="@+id/tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="38dp"
+        android:textSize="40dp"
+        android:text="WELCOME"
+
+        android:textColor="#4b3fb5"
+        android:textStyle="italic"
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="14dp" />
+
+    <Button
+        android:id="@+id/re"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="RESET"
+
+        android:textStyle="bold"
+        android:layout_marginEnd="15dp"
+        android:layout_alignBottom="@+id/tx"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/singl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Single Player"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/re"
+        android:layout_alignEnd="@+id/re" />
+</RelativeLayout>
